@@ -1,0 +1,30 @@
+ul {
+list-style:none;
+padding:0;
+width:400px;
+}
+
+#accordion li h4 {
+background:orange;
+color:white;
+padding:10px;
+margin:0;
+border:1px solid white;
+cursor:pointer;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border-radius: 15px;
+}
+
+#accordion li .content {
+padding: 0 10px;
+}
+
+.content{
+    height:0;
+    overflow:auto;
+    transition: height 1s;
+}
+
+.content.show {
+    height:500px;
+}
